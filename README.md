@@ -5,7 +5,13 @@ Esta documentação encontra-se alguns acordos firmados pelos times de Desenvolv
 ---
 ## Versionamento
 
-desrição da forma de versionamento
+A Forma de versionamento definida foi utilizando Tags.
+
+´´´
+Listagem de Tags: git tag -n
+Criação de Tags: git tag 'v<mejor.minor.patch>'
+Enviar as Tags: git push --tags
+´´´´
 
 Links úteis
 
