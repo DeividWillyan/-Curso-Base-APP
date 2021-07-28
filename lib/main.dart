@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:micro_core/micro_core.dart';
 
 import 'package:micro_app_login/micro_app_login.dart';
+import 'package:micro_app_home/micro_app_home.dart';
 
 void main() {
   runApp(MyApp());
@@ -30,5 +31,6 @@ class MyApp extends StatelessWidget with BaseApp {
   @override
   List<MicroApp> get microApps => [
         MicroAppLoginResolver(),
+        MicroAppHomeResolver(),
       ];
 }
