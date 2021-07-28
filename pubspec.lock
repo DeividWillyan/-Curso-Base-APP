@@ -57,13 +57,6 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "3.0.1"
-  cupertino_icons:
-    dependency: "direct main"
-    description:
-      name: cupertino_icons
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "1.0.2"
   fake_async:
     dependency: transitive
     description:
@@ -127,23 +120,29 @@ packages:
   micro_app_home:
     dependency: "direct main"
     description:
-      path: "../micro_app_home"
-      relative: true
-    source: path
-    version: "0.0.1"
+      path: "."
+      ref: "v1.0.0"
+      resolved-ref: ed0755f6e3abd524b20af2b7f513a63aa5eba4a3
+      url: "https://github.com/DeividWillyan/-Curso-Micro-App-Home.git"
+    source: git
+    version: "1.0.0"
   micro_app_login:
     dependency: "direct main"
     description:
-      path: "../micro_app_login"
-      relative: true
-    source: path
-    version: "1.0.1"
+      path: "."
+      ref: "v1.0.3"
+      resolved-ref: d42ae3362f7a9ffe92dc830c88dfac70a31f6047
+      url: "https://github.com/DeividWillyan/-Curso-Micro-App-Login.git"
+    source: git
+    version: "1.0.3"
   micro_commons_design_system:
-    dependency: transitive
+    dependency: "direct overridden"
     description:
-      path: "../micro_commons_design_system"
-      relative: true
-    source: path
+      path: "."
+      ref: "v1.0.0"
+      resolved-ref: "663ed8c1102d9187d792c99777e94c5d7bfe9255"
+      url: "https://github.com/DeividWillyan/-Curso-Micro-Commons-Design-System.git"
+    source: git
     version: "0.0.1"
   micro_core:
     dependency: "direct main"
@@ -259,4 +258,3 @@ packages:
     version: "3.0.0"
 sdks:
   dart: ">=2.12.0 <3.0.0"
-  flutter: ">=1.17.0"

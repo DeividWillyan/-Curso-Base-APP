@@ -6,21 +6,33 @@ environment:
   sdk: ">=2.7.0 <3.0.0"
 
 dependencies:
+  flutter:
+    sdk: flutter
+
+  micro_core:
+  micro_app_login:
+  micro_app_home:
+
+dependency_overrides:
+  micro_commons_design_system:
+    git:
+      url: https://github.com/DeividWillyan/-Curso-Micro-Commons-Design-System.git
+      ref: v1.0.0
+
   micro_core:
     git:
       url: https://github.com/DeividWillyan/-Curso-Micro-Core.git
       ref: v1.0.0
 
   micro_app_login:
-    path: ../micro_app_login
+    git:
+      url: https://github.com/DeividWillyan/-Curso-Micro-App-Login.git
+      ref: v1.0.3
 
   micro_app_home:
-    path: ../micro_app_home
-
-  flutter:
-    sdk: flutter
-
-  cupertino_icons: ^1.0.2
+    git:
+      url: https://github.com/DeividWillyan/-Curso-Micro-App-Home.git
+      ref: v1.0.0
 
 dev_dependencies:
   flutter_test:
