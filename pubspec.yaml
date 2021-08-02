@@ -1,9 +1,9 @@
 name: base_app
 description: A new Flutter project.
-version: 1.0.2
+version: 1.0.3
 
 environment:
-  sdk: ">=2.7.0 <3.0.0"
+  sdk: ">=2.12.0 <3.0.0"
 
 dependencies:
   flutter:
@@ -14,25 +14,25 @@ dependencies:
   micro_app_home:
 
 dependency_overrides:
-  micro_commons_design_system:
-    git:
-      url: https://github.com/DeividWillyan/-Curso-Micro-Commons-Design-System.git
-      ref: v1.0.0
-
   micro_core:
     git:
       url: https://github.com/DeividWillyan/-Curso-Micro-Core.git
-      ref: v1.0.0
+      ref: v1.0.1
+  
+  micro_commons_design_system:
+    git:
+      url: https://github.com/DeividWillyan/-Curso-Micro-Commons-Design-System.git
+      ref: v1.0.2
 
   micro_app_login:
     git:
       url: https://github.com/DeividWillyan/-Curso-Micro-App-Login.git
-      ref: v1.0.3
+      ref: v1.0.4
 
   micro_app_home:
     git:
       url: https://github.com/DeividWillyan/-Curso-Micro-App-Home.git
-      ref: v1.0.0
+      ref: v1.0.1
 
 dev_dependencies:
   flutter_test:

@@ -97,7 +97,7 @@ packages:
       name: golden_toolkit
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.8.0"
+    version: "0.9.0"
   integration_test:
     dependency: "direct dev"
     description: flutter
@@ -121,38 +121,38 @@ packages:
     dependency: "direct main"
     description:
       path: "."
-      ref: "v1.0.0"
-      resolved-ref: ed0755f6e3abd524b20af2b7f513a63aa5eba4a3
+      ref: "v1.0.1"
+      resolved-ref: "977320a1f1f3688b8902ff33ee63301e79098557"
       url: "https://github.com/DeividWillyan/-Curso-Micro-App-Home.git"
     source: git
-    version: "1.0.0"
+    version: "1.0.1"
   micro_app_login:
     dependency: "direct main"
     description:
       path: "."
-      ref: "v1.0.3"
-      resolved-ref: d42ae3362f7a9ffe92dc830c88dfac70a31f6047
+      ref: "v1.0.4"
+      resolved-ref: "7e1c3894ffc019a77c7d09111a387fd3fe1d8e68"
       url: "https://github.com/DeividWillyan/-Curso-Micro-App-Login.git"
     source: git
-    version: "1.0.3"
+    version: "1.0.4"
   micro_commons_design_system:
     dependency: "direct overridden"
     description:
       path: "."
-      ref: "v1.0.0"
-      resolved-ref: "663ed8c1102d9187d792c99777e94c5d7bfe9255"
+      ref: "v1.0.2"
+      resolved-ref: "6f19a6f8aa787bb4195b4079d542a062c555a0ca"
       url: "https://github.com/DeividWillyan/-Curso-Micro-Commons-Design-System.git"
     source: git
-    version: "0.0.1"
+    version: "1.0.2"
   micro_core:
     dependency: "direct main"
     description:
       path: "."
-      ref: "v1.0.0"
-      resolved-ref: de7b5cb92e4d525e8ae0b12bb3910d75d4552767
+      ref: "v1.0.1"
+      resolved-ref: "72827d20289a829009bb5bbb52a40ebdc23265fb"
       url: "https://github.com/DeividWillyan/-Curso-Micro-Core.git"
     source: git
-    version: "0.0.1"
+    version: "1.0.1"
   path:
     dependency: transitive
     description:
