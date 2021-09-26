@@ -120,20 +120,16 @@ packages:
   micro_app_home:
     dependency: "direct main"
     description:
-      path: "."
-      ref: "v1.0.1"
-      resolved-ref: "977320a1f1f3688b8902ff33ee63301e79098557"
-      url: "https://github.com/DeividWillyan/-Curso-Micro-App-Home.git"
-    source: git
+      path: "../micro_app_home"
+      relative: true
+    source: path
     version: "1.0.1"
   micro_app_login:
     dependency: "direct main"
     description:
-      path: "."
-      ref: "v1.0.4"
-      resolved-ref: "7e1c3894ffc019a77c7d09111a387fd3fe1d8e68"
-      url: "https://github.com/DeividWillyan/-Curso-Micro-App-Login.git"
-    source: git
+      path: "../micro_app_login"
+      relative: true
+    source: path
     version: "1.0.4"
   micro_commons_design_system:
     dependency: "direct overridden"

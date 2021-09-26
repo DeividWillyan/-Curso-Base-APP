@@ -25,14 +25,13 @@ dependency_overrides:
       ref: v1.0.2
 
   micro_app_login:
-    git:
-      url: https://github.com/DeividWillyan/-Curso-Micro-App-Login.git
-      ref: v1.0.4
+    path: ../micro_app_login
 
   micro_app_home:
-    git:
-      url: https://github.com/DeividWillyan/-Curso-Micro-App-Home.git
-      ref: v1.0.1
+    path: ../micro_app_home
+    # git:
+    #   url: https://github.com/DeividWillyan/-Curso-Micro-App-Home.git
+    #   ref: v1.0.1
 
 dev_dependencies:
   flutter_test:
